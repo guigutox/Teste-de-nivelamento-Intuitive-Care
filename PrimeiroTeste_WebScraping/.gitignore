@@ -29,3 +29,6 @@ build/
 
 # Pipfile
 Pipfile.lock
+
+anexos/
+anexos_compactados.zip
