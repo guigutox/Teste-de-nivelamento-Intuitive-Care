@@ -11,7 +11,7 @@ Criar scripts SQL para executar as tarefas
    git clone [URL_DO_REPOSITORIO]
 
 
-## AVISO
+## ⚠️AVISO⚠️
 
 Para a realização dessa tarefa foram necessárias modificações e a exclusão de um dos trimestres para que houvesse pleno funcionamento, além da inclusão do realatorio_cadop_canceladas.csv que adiciona as operadoras que foram canceladas.
 
@@ -44,7 +44,7 @@ psql -U usuario -d nome_do_banco
 ```
 
 
-5. Agora para inserir os dados trimestrais, ainda no terminal PSQL Substitua o X para com o caminho dentro da pasta data para cada trimestre, assim como está no script.sql com excessão do 4T2023
+5. Agora para inserir os dados trimestrais, ainda no terminal PSQL Substitua o X para com o caminho dentro da pasta data para cada trimestre, assim como está no script.sql com excessão do 4T2023 (explicação na sessão aviso)
 
 ```
 \COPY demonstracoes_contabeis FROM 'X' DELIMITER ';' CSV HEADER ENCODING 'UTF8'
