@@ -24,16 +24,18 @@ Para a realização dessa tarefa foram necessárias modificações e a exclusão
 
 ## 🚀 Como usar
 
-1. Utilize os comandos de create table para criar as tabelas no postgres
+1. Extraia o arquivo Data.zip
 
-2. Para inserir as informações será necessário utilizar o PSQL e inserir por ele, por questões de problemas de autorização de leitura pelo postgres a partir de um pgadmin, por exemplo.
+2. Utilize os comandos de create table para criar as tabelas no postgres
 
-3. Abra o CMD e utilize o seguinte comando substituindo os campos usuario e database pelo seu usuario e database:
+3. Para inserir as informações será necessário utilizar o PSQL e inserir por ele, por questões de problemas de autorização de leitura pelo postgres a partir de um pgadmin, por exemplo.
+
+4. Abra o CMD e utilize o seguinte comando substituindo os campos usuario e database pelo seu usuario e database:
 ```
 psql -U usuario -d nome_do_banco
 ```
 
-4. Nesse passo serão inseridas as operadoras.No terminal PSQL, cole o primeiro caminho e substitua o X pelo caminho dos arquivos no primeiro substitua pelo caminho do arquivo Relatorio_cadop.csv, após isso repita o processo para o segundo e  substitua o X pelo caminho do Relatorio_cadop_canceladas.csv
+5. Nesse passo serão inseridas as operadoras.No terminal PSQL, cole o primeiro caminho e substitua o X pelo caminho dos arquivos no primeiro substitua pelo caminho do arquivo Relatorio_cadop.csv, após isso repita o processo para o segundo e  substitua o X pelo caminho do Relatorio_cadop_canceladas.csv
 
 ```
 \COPY operadoras_ativas ( Registro_ANS, CNPJ, Razao_Social, Nome_Fantasia, Modalidade,Logradouro, Numero, Complemento, Bairro, Cidade, UF, CEP,DDD, Telefone, Fax, Email, Representante,Cargo_Representante, Regiao_de_Comercializacao, Data_Registro_ANS) FROM 'X' WITH (FORMAT csv, DELIMITER ';', HEADER, ENCODING 'UTF8');
