@@ -1,6 +1,6 @@
-# Teste de Download e Compactação de Anexos da ANS
+# Teste de Transformação de dados
 
-Script Python para automatizar o download dos Anexos I e II (PDF) do Rol de Procedimentos da ANS e compactá-los em arquivo ZIP.
+Script Python para extrair os dados do anexo 1 obtido no primeiro teste, passar para um csv e compactar em zip
 
 ## 📋 Pré-requisitos
 - Python 3.0+
