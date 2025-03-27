@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "cfe56431-ba26-4046-a639-125b65670fa8",
+		"name": "Coleção Teste 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28943696"
+	},
+	"item": [
+		{
+			"name": "Estado de Sao Paulo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=SP",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "SP"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modalidade de Autogestão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=Autogestão",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "Autogestão"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca pelo nome UNIMED",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=UNIMED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "UNIMED"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca de data de registro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=1998-12-28",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "1998-12-28"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca de CNPJ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=28974020000182",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "28974020000182"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por cidade",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=Brasília",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "Brasília"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca por CEP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?termo_busca=5074000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo_busca",
+							"value": "5074000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
