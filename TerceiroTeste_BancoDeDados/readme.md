@@ -5,11 +5,6 @@ Criar scripts SQL para executar as tarefas
 ## 📋 Pré-requisitos
 - Postgres > 10
 
-## 🛠 Instalação
-1. Clone o repositório:
-   ```bash
-   git clone [URL_DO_REPOSITORIO]
-
 
 ## ⚠️AVISO⚠️
 

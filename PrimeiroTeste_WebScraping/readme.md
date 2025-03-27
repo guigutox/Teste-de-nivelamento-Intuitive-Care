@@ -7,11 +7,8 @@ Script Python para automatizar o download dos Anexos I e II (PDF) do Rol de Proc
 - Bibliotecas listadas em `requirements.txt`
 
 ## 🛠 Instalação
-1. Clone o repositório:
-   ```bash
-   git clone [URL_DO_REPOSITORIO]
 
-2. Criar ambiente virtual:
+1. Criar ambiente virtual:
 
     **Caso o SO seja WINDOWS:**
     ```bash
@@ -40,7 +37,7 @@ Script Python para automatizar o download dos Anexos I e II (PDF) do Rol de Proc
     ```
 
 
-3. Instale as dependências:
+2. Instale as dependências:
 
     ```bash 
     pip install -r requirements.txt
